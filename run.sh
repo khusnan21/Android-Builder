@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 if [ -f /$HOME/swapfile ]  
 then
@@ -9,4 +9,4 @@ else
     sudo mkswap /$HOME/swapfile
 fi
 sudo swapon /$HOME/swapfile
-sudo bin/act -P catthehacker/ubuntu:full-latest
+#sudo bin/act -P catthehacker/ubuntu:full-latest
