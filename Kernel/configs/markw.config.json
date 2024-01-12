@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Joyeuse",
-      "repo": "https://github.com/daboynb/Android-Builder",
+      "repo": "https://github.com/AnggaR96s/kernel_xiaomi_joyeuse",
       "branch": "Tanya",
       "device": "joyeuse",
       "defconfig": "joyeuse_defconfig"
