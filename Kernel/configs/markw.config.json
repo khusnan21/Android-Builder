@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Joyeuse",
-      "repo": "https://github.com/AnggaR96s/kernel_xiaomi_joyeuse",
-      "branch": "Tanya",
-      "device": "joyeuse",
-      "defconfig": "joyeuse_defconfig"
+      "name": "sm8250",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_sm8250",
+      "branch": "thirteen",
+      "device": "sm8250",
+      "defconfig": "vendor/xiaomi/sm8250-common.config"
     },
     "toolchains": [
       {
