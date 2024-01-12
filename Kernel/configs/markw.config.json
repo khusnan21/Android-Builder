@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi4",
-      "repo": "https://github.com/SonicBSV/android_kernel_xiaomi_markw-4.9",
-      "branch": "master",
-      "device": "markw",
-      "defconfig": "markw_defconfig"
+      "name": "Joyeuse",
+      "repo": "https://github.com/daboynb/Android-Builder",
+      "branch": "Tanya",
+      "device": "joyeuse",
+      "defconfig": "joyeuse_defconfig"
     },
     "toolchains": [
       {
