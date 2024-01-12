@@ -5,7 +5,7 @@
       "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_sm8250",
       "branch": "thirteen",
       "device": "sm8250",
-      "defconfig": "gki_defconfig"
+      "defconfig": "defconfig"
     },
     "toolchains": [
       {
