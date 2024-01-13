@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "sm8250",
-      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_sm8250",
+      "name": "miatoll",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6250",
       "branch": "thirteen",
-      "device": "sm8250",
-      "defconfig": "vendor/sdm660_defconfig"
+      "device": "miatoll",
+      "defconfig": "vendor/xiaomi/miatoll_defconfig"
     },
     "toolchains": [
       {
