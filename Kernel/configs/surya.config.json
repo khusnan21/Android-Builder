@@ -2,7 +2,7 @@
     {
       "kernelSource": {
         "name": "surya",
-        "repo": "https://github.com/crdroidandroid/android_kernel_xiaomi_surya",
+        "repo": "https://github.com/daboynb/android_kernel_xiaomi_surya",
         "branch": "14.0",
         "device": "surya",
         "defconfig": "surya_defconfig"
@@ -59,7 +59,7 @@
         "use": true,
         "release": true
       },
-      "enableKernelSU": true,
+      "enableKernelSU": false,
       "enableLXC": true
     }
   ]
