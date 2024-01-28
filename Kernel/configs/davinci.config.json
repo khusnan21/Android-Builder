@@ -1,11 +1,11 @@
 [
     {
       "kernelSource": {
-        "name": "davinci",
-        "repo": "https://github.com/raul-16/android_kernel_xiaomi_davinci",
-        "branch": "lineage-21",
-        "device": "davinci",
-        "defconfig": "davinci_defconfig"
+        "name": "surya",
+        "repo": "https://github.com/crdroidandroid/android_kernel_xiaomi_surya",
+        "branch": "14.0",
+        "device": "surya",
+        "defconfig": "surya_defconfig"
       },
       "toolchains": [
         {
