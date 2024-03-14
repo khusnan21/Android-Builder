@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "miatoll",
-      "repo": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm6250",
-      "branch": "14.0",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_sm6250",
+      "branch": "thirteen",
       "device": "miatoll",
       "defconfig": "vendor/xiaomi/miatoll_defconfig"
     },
@@ -59,7 +59,7 @@
       "use": true,
       "release": true
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": true
   }
 ]
