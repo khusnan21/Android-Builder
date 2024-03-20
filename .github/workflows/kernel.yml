@@ -90,8 +90,6 @@ jobs:
           sudo apt-get install -y build-essential bc gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi libssl-dev libfl-dev
           sudo apt-get install -y pwgen libswitch-perl policycoreutils minicom libxml-sax-base-perl libxml-simple-perl 
           sudo apt-get install -y zip unzip tar gzip bzip2 rar unrar llvm g++-multilib bison gperf zlib1g-dev automake
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
           
       - name: Cleanup
         uses: easimon/maximize-build-space@master
@@ -110,9 +108,6 @@ jobs:
           sudo rm -rf /usr/local/share/boost > /dev/null 2>&1
           sudo rm -rf "$AGENT_TOOLSDIRECTORY" > /dev/null 2>&1
           
-      - name: Show free disk space
-        run: |
-          sudo df -h --output=avail /
       
       # Initialize ccache
       - name: 🚄 Setup ccache
