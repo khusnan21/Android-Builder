@@ -92,13 +92,27 @@ jobs:
           sudo apt-get install -y zip unzip tar gzip bzip2 rar unrar llvm g++-multilib bison gperf zlib1g-dev automake
           sudo rm -rf /usr/share/dotnet
           sudo rm -rf "$AGENT_TOOLSDIRECTORY"
-      
+          
+      - name: Cleanup
+        uses: easimon/maximize-build-space@master
+        with:
+          root-reserve-mb: 512
+          swap-size-mb: 12288
+          remove-dotnet: "true"
+          remove-haskell: "true"
+          remove-codeql: "true"
+          remove-docker-images: "true"
+          
       - name: Workaround for running out of disk space
         run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/share/boost
-          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+          sudo rm -rf /usr/share/dotnet > /dev/null 2>&1
+          sudo rm -rf /opt/ghc > /dev/null 2>&1
+          sudo rm -rf /usr/local/share/boost > /dev/null 2>&1
+          sudo rm -rf "$AGENT_TOOLSDIRECTORY" > /dev/null 2>&1
+          
+      - name: Show free disk space
+        run: |
+          sudo df -h --output=avail /
       
       # Initialize ccache
       - name: 🚄 Setup ccache
