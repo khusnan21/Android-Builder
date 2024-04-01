@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "miatoll",
+      "name": "taimen",
       "repo": "https://github.com/daboynb/kernel_google_wahoo",
       "branch": "thirteen",
       "device": "taimen",
