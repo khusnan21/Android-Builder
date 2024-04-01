@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "miatoll",
-      "repo": "https://github.com/daboynb/android_kernel_xiaomi_sm6250",
-      "branch": "lineage-20",
-      "device": "miatoll",
-      "defconfig": "vendor/xiaomi/miatoll_defconfig"
+      "repo": "https://github.com/daboynb/kernel_google_wahoo",
+      "branch": "thirteen",
+      "device": "taimen",
+      "defconfig": "lineageos_taimen_defconfig"
     },
     "toolchains": [
       {
