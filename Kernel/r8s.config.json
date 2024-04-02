@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "op7t",
-      "repo": "https://github.com/LineageOS/android_kernel_oneplus_sm8150",
-      "branch": "lineage-20",
-      "device": "hotdogb",
-      "defconfig": "vendor/SM8150-perf_defconfig"
+      "name": "r8s",
+      "repo": "https://github.com/ExtremeXT/android_kernel_samsung_exynos990",
+      "branch": "main",
+      "device": "r8s",
+      "defconfig": "extreme_r8s_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
